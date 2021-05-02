@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.fixwidth{
+    width: 1270px;
+    margin: auto;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* heading-section */
+
+.header-menu{
+    background-color: #22c3a3;
+}
+.logo-left{
+    float: left;
+    width: 30%;
+}
+.logo-left a{
+    text-decoration: none;
+
+}
+.logo-left h2 {
+	line-height: 55px;
+	color: #fff;
+}
+.menu-right{
+    float: right;
+    width: 70%;
+}
+.menu-right ul {
+	text-align: right;
+}
+.menu-right ul li {
+	display: inline-block;
+	margin-left: -5px;
+}
+.menu-right ul li a {
+	display: inline-block;
+	padding: 0 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+    line-height: 55px;
+    color: #ddd;
+    transition: .4s;
+}
+.menu-right ul li a:hover{
+    background-color: rgba(38, 99, 87,.5);
+    color: #fff;
+}
+/* banner-section */
+
+.banner {
+    background-image: url(https://i.ibb.co/b7D0Dy4/178134199-505905787442083-5975638775884129539-n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: #fff;
+}
+.banner-content p {
+	color: #ddd;
+	text-transform: capitalize;
+}
+.banner-content a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 20px;
+	border: 2px solid #ddd;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #ddd;
+	text-transform: uppercase;
+    font-size: 12px;
+    transition: .4s;
+}
+.banner-content a:hover{
+    background-color: rgba(38, 99, 87,.5);
+    color: #fff;
+}
+
+/* service-section */
+
+.service-section {
+	background-color: #ffffff;
+    padding: 50px;
+    border-bottom: 2px solid  #0cbe9a;
+}
+.services{
+    text-align: center;
+}
+.services h2 {
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #4c4b44;
+}
+.services p {
+    margin-top: 15px;
+    color: #a1a19c;
+}
+.service-item {
+	text-align: center;
+	float: left;
+	width: 25%;
+	margin: 50px 0;
+}
+.service-item a {
+	color: #0cbe9a;
+	font-size: 30px;
+}
+.service-item h3 {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #4c4b44;
+}
+.service-item p {
+	line-height: 18px;
+    padding: 10px;
+    color: #a1a19c;
+}
+
+/* about-section */
+
+.about-section{
+    padding: 50px;
+}
+.about{
+    text-align: center;
+
+}
+.about h3 {
+	padding-bottom: 20px;
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 20px;
+	color: #4c4b44;
+}
+.about p {
+	margin-bottom: 40px;
+    color: #a1a19c;
+}
+.img-left{
+    float: left;
+    width: 40%;
+}
+.img-left img{
+    width: 100%;
+}
+.content-right{
+    float: right;
+    width: 55%;
+}
+.content-right h3 {
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	color: #4c4b44;
+}
+.content-right p {
+	margin-bottom: 15px;
+    color: #a1a19c;
+}
+
+/* contact-section */
+
+.contact-section{
+    background-color: #f6f6f6;
+    padding: 50px;
+}
+.contact{
+    padding: 20px;
+    text-align: center;
+}
+.contact h2 {
+	font-size: 25px;
+	font-weight: 400;
+	margin: 10px 0;
+	color: #4c4b44;
+	text-transform: capitalize;
+}
+.contact p {
+	color: #a1a19c;
+}
+
+/* location */
+
+.location{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.location span {
+	font-size: 20px;
+	color: #0bbf9a;
+}
+.location p {
+    margin-top: 10px;
+    color: #a1a19c;
+}
+
+/* fotter section */
+
+.footer{
+    background-color: #0bbf9a;
+}
+.social-menu{
+    text-align: center;
+}
+.social-menu li {
+	display: inline-block;
+	margin: 20px 8px;
+    text-align: center;
+    
+}
+.social-menu li a {
+	color: #0bbf9a;
+	display: inline-block;
+	border-radius: 50%;
+	background: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	transition: .4s;
+}
+.social-menu li:nth-child(1) a:hover{
+    background-color: #3b5a9a;
+    color: #ffffff;
+
+}.social-menu li:nth-child(2) a:hover{
+    background-color:#f03a37;
+    color: #ffffff;
+
+}.social-menu li:nth-child(3) a:hover{
+    background-color: #1aa9e1;
+    color: #ffffff;
+
+}.social-menu li:nth-child(4) a:hover{
+    background-color: #d0202a;
+    color: #ffffff;
+
+}.social-menu li:nth-child(5) a:hover{
+    background-color:#751d62;
+    color: #ffffff;
+
+}
+
